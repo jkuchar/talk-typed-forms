@@ -16,8 +16,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="removed note">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="readme">
+      <change afterPath="$PROJECT_DIR$/app/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Presenters/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,7 +86,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -108,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601111821056</updated>
-      <workItem from="1601111822164" duration="6382000" />
+      <workItem from="1601111822164" duration="7083000" />
     </task>
     <task id="LOCAL-00001" summary="Installed brick/date-time">
       <created>1601114597253</created>
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601118200336</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="readme">
+      <created>1601118223763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601118223763</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +219,8 @@
     <MESSAGE value="Implemented Form2 with Form extracted into separate class" />
     <MESSAGE value="Implemented Form3 with strictly typed fields" />
     <MESSAGE value="removed note" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed note" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="290" key="#PHP" timestamp="1601112012214">
@@ -264,21 +275,21 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1269" y="543" key="NewPhpClassDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601116783035" />
-    <state x="768" y="492" key="NewPhpFileDialog" timestamp="1601115218176">
+    <state x="768" y="492" key="NewPhpFileDialog" timestamp="1601118441788">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="768" y="492" key="NewPhpFileDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601115218176" />
-    <state x="454" y="200" key="SettingsEditor" timestamp="1601114040706">
+    <state x="768" y="492" key="NewPhpFileDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601118441788" />
+    <state x="454" y="200" key="SettingsEditor" timestamp="1601118491899">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="454" y="200" key="SettingsEditor/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114040706" />
-    <state x="605" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601118202540">
+    <state x="454" y="200" key="SettingsEditor/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601118491899" />
+    <state x="605" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601118225814">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="605" y="410" key="Vcs.Push.Dialog.v2/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601118202540" />
-    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601115062224">
+    <state x="605" y="410" key="Vcs.Push.Dialog.v2/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601118225814" />
+    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601118490094">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601115062224" />
+    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601118490094" />
   </component>
 </project>

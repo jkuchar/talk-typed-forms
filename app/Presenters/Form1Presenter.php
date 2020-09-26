@@ -35,9 +35,9 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 		$form->setDefaults([
 			'flightCode' => 'PAP101',
 			'from' => 'BRQ',
-			'arrivalTime' => '10:15',
+			'departureTime' => '10:15',
 			'to' => 'KBP',
-			'departureTime' => '12:55'
+			'arrivalTime' => '12:55',
 		]);
 
 		$form->onSuccess[] = [$this, 'myForm__onSuccess'];
