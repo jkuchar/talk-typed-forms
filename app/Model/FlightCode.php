@@ -17,7 +17,7 @@ final class FlightCode
 	/**
 	 * @throws InvalidFlightCodeGiven
 	 */
-	public static function fromString(string $code): self
+	public static function parse(string $code): self
 	{
 		$matched = \preg_match('/^[a-z]{3}[0-9]+$/i', $code) === 1;
 

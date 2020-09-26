@@ -13,10 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="summarized problems with current solution">
-      <change beforePath="$PROJECT_DIR$/app/Presenters/HomepagePresenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Homepage/default.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Router/RouterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router/RouterFactory.php" afterDir="false" />
+    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="Removed unused presenters">
+      <change afterPath="$PROJECT_DIR$/app/CustomField/AddToConstructorForTextBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/CustomField/FlightCodeField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Form/PublishFlightTickerFormFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Form/PublishFlightTicketForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Presenters/Form2Presenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Presenters/templates/Form2/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/AirportCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/AirportCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/FlightCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/FlightCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Form1/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/templates/Form1/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/common.neon" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +81,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Presenters/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,8 +96,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/img" />
+      <recent name="$PROJECT_DIR$/app/Presenters/templates" />
       <recent name="$PROJECT_DIR$/app/Presenters" />
+      <recent name="$PROJECT_DIR$/www/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601111821056</updated>
-      <workItem from="1601111822164" duration="3238000" />
+      <workItem from="1601111822164" duration="4502000" />
     </task>
     <task id="LOCAL-00001" summary="Installed brick/date-time">
       <created>1601114597253</created>
@@ -148,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601115039746</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed unused presenters">
+      <created>1601115078430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601115078430</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +190,8 @@
     <MESSAGE value="Installed latest phpstan (level 8)" />
     <MESSAGE value="Fixed error found by phpstan" />
     <MESSAGE value="summarized problems with current solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="summarized problems with current solution" />
+    <MESSAGE value="Removed unused presenters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused presenters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="290" key="#PHP" timestamp="1601112012214">
@@ -184,14 +202,22 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="454" y="283" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601112041333" />
-    <state x="758" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1601114108350">
+    <state x="588" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601115223956">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="758" y="284" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114108350" />
-    <state x="728" y="231" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601113754462">
+    <state x="588" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601115223956" />
+    <state x="758" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1601116069029">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="728" y="231" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601113754462" />
+    <state x="758" y="284" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601116069029" />
+    <state x="728" y="231" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601115297876">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="728" y="231" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601115297876" />
+    <state x="683" y="323" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601116029758">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="683" y="323" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601116029758" />
     <state x="698" y="445" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1" timestamp="1601114106816">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -216,10 +242,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1610" height="311" key="GridCell.Tab.0.right/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114167143" />
-    <state x="674" y="390" key="NewPhpClassDialog" timestamp="1601114000836">
+    <state x="1424" y="377" key="NewPhpClassDialog" timestamp="1601116200351">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="674" y="390" key="NewPhpClassDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114000836" />
+    <state x="1424" y="377" key="NewPhpClassDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601116200351" />
+    <state x="768" y="492" key="NewPhpFileDialog" timestamp="1601115218176">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="768" y="492" key="NewPhpFileDialog/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601115218176" />
     <state x="454" y="200" key="SettingsEditor" timestamp="1601114040706">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

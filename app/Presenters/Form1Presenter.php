@@ -41,7 +41,7 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 		]);
 
 		$form->onSuccess[] = [$this, 'myForm__onSuccess'];
-		$form->addSubmit('send', 'Save!');
+		$form->addSubmit('send', 'Publish flight ticket');
 		return $form;
 	}
 
@@ -68,10 +68,10 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 		// So now what?
 
 		$this->flightRegistry->publishNewFlight(
-			FlightCode::fromString($values['flightCode']),
-			AirportCode::fromString($values['from']),
+			FlightCode::parse($values['flightCode']),
+			AirportCode::parse($values['from']),
 			LocalTime::parse($values['departureTime']),
-			AirportCode::fromString($values['from']),
+			AirportCode::parse($values['from']),
 			LocalTime::parse($values['arrivalTime']),
 		);
 
@@ -82,6 +82,7 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 		// 2. how to handle exceptions? (surround with)
 		//   3. how to check which was which, and how to inform user? Duplicated rules into fields?
 		// 4. How to teach phpstan to read this code?
+		// 5. Isn't it strange, that everything is configured on the fly?
 
 	}
 

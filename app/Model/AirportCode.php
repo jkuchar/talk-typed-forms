@@ -17,7 +17,7 @@ final class AirportCode
 	/**
 	 * @throws InvalidAirportCodeGiven
 	 */
-	public static function fromString(string $code): self
+	public static function parse(string $code): self
 	{
 		if (\strlen($code) !== 3) {
 			throw new InvalidAirportCodeGiven('Airport code must be 3 letters string.');
