@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,9 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="Fixed error found by phpstan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" afterDir="false" />
+    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="summarized problems with current solution">
+      <change beforePath="$PROJECT_DIR$/app/Presenters/HomepagePresenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Homepage/default.latte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Router/RouterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router/RouterFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601111821056</updated>
-      <workItem from="1601111822164" duration="3196000" />
+      <workItem from="1601111822164" duration="3238000" />
     </task>
     <task id="LOCAL-00001" summary="Installed brick/date-time">
       <created>1601114597253</created>
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601114905053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="summarized problems with current solution">
+      <created>1601115039746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601115039746</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +172,8 @@
     <MESSAGE value=".idea files: \RuntimeExceptions should be CHECKED exceptions!" />
     <MESSAGE value="Installed latest phpstan (level 8)" />
     <MESSAGE value="Fixed error found by phpstan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error found by phpstan" />
+    <MESSAGE value="summarized problems with current solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="summarized problems with current solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="290" key="#PHP" timestamp="1601112012214">
@@ -212,9 +224,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="454" y="200" key="SettingsEditor/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114040706" />
-    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601114952108">
+    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601115062224">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114952108" />
+    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601115062224" />
   </component>
 </project>
