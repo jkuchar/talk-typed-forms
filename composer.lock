@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9f5b82f77ba4e06b0530946bcbbbc65",
+    "content-hash": "0adcd69cfd11796a4f3185e8896f28a0",
     "packages": [
+        {
+            "name": "brick/date-time",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/date-time.git",
+                "reference": "174680cd771fcf222660653b240565dea5f87e18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/date-time/zipball/174680cd771fcf222660653b240565dea5f87e18",
+                "reference": "174680cd771fcf222660653b240565dea5f87e18",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^7.5.15"
+            },
+            "suggest": {
+                "ext-timezonedb": "This PECL extension provides up-to-date timezone information"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\DateTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Date and time library",
+            "keywords": [
+                "brick",
+                "date",
+                "time"
+            ],
+            "time": "2020-07-30T22:28:54+00:00"
+        },
         {
             "name": "latte/latte",
             "version": "v2.8.1",
