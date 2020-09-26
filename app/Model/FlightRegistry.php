@@ -15,7 +15,7 @@ final class FlightRegistry
 		LocalTime $departureTime,
 		AirportCode $to,
 		LocalTime $arrivalTime
-	) {
+	): void {
 
 		// do something with these objects
 

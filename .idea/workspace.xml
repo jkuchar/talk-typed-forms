@@ -10,21 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment=".idea files: \RuntimeExceptions should be CHECKED exceptions!">
-      <change afterPath="$PROJECT_DIR$/phpstan.neon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/talk-typed-nette-forms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/talk-typed-nette-forms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/Error4xxPresenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/403.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/404.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/405.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/410.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/4xx.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/500.phtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Error/503.phtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="Installed latest phpstan (level 8)">
+      <change beforePath="$PROJECT_DIR$/app/Model/FlightRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/FlightRegistry.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601111821056</updated>
-      <workItem from="1601111822164" duration="3030000" />
+      <workItem from="1601111822164" duration="3066000" />
     </task>
     <task id="LOCAL-00001" summary="Installed brick/date-time">
       <created>1601114597253</created>
@@ -135,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601114674071</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Installed latest phpstan (level 8)">
+      <created>1601114884370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601114884370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +151,8 @@
     <MESSAGE value="Installed brick/date-time" />
     <MESSAGE value="Implemented basic form, with model requiring value objects" />
     <MESSAGE value=".idea files: \RuntimeExceptions should be CHECKED exceptions!" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea files: \RuntimeExceptions should be CHECKED exceptions!" />
+    <MESSAGE value="Installed latest phpstan (level 8)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed latest phpstan (level 8)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="290" key="#PHP" timestamp="1601112012214">
