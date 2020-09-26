@@ -4,6 +4,7 @@
 namespace App\Form;
 
 
+use App\CustomField\FlightCodeField;
 use App\Model\AirportCode;
 use App\Model\FlightCode;
 use App\Model\FlightRegistry;
@@ -37,9 +38,9 @@ final class PublishFlightTicketForm extends Form
 		$this->setDefaults([
 			'flightCode' => 'PAP101',
 			'from' => 'BRQ',
-			'arrivalTime' => '10:15',
+			'departureTime' => '10:15',
 			'to' => 'KBP',
-			'departureTime' => '12:55'
+			'arrivalTime' => '12:55',
 		]);
 
 		$this->onSuccess[] = [$this, 'myForm__onSuccess'];
@@ -63,7 +64,7 @@ final class PublishFlightTicketForm extends Form
 			FlightCode::parse($values['flightCode']),
 			AirportCode::parse($values['from']),
 			LocalTime::parse($values['departureTime']),
-			AirportCode::parse($values['from']),
+			AirportCode::parse($values['to']),
 			LocalTime::parse($values['arrivalTime']),
 		);
 
@@ -73,7 +74,7 @@ final class PublishFlightTicketForm extends Form
 		// 1. what if I change one of field names?
 		// 2. how to handle exceptions? (surround with)
 		//   3. how to check which was which, and how to inform user? Duplicated rules into fields?
-		// 4. How to teach phpstan to read this code?
+		// 4. How to teach phpstan to read this code? (it has no clue what is inside)
 
 	}
 

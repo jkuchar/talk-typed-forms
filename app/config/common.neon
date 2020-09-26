@@ -19,4 +19,5 @@ di:
 services:
 	router: App\Router\RouterFactory::createRouter
 	- App\Model\FlightRegistry
-	- App\Form\PublishFlightTickerFormFactory
+	- App\Form\PublishFlightTicketFormFactory
+	- App\Form\PublishFlightTicketTypedFormFactory

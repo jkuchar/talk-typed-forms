@@ -4,12 +4,12 @@
 namespace App\CustomField;
 
 
-use App\Model\FlightCode;
-use App\Model\InvalidFlightCodeGiven;
+use App\Model\AirportCode;
+use App\Model\InvalidAirportCodeGiven;
 use Nette\Forms\Controls\TextBase;
 use Nette\Utils\Html;
 
-final class FlightCodeField extends TextBase
+final class AirportCodeField extends TextBase
 {
 
 	use AddToConstructorForTextBase;
@@ -24,12 +24,12 @@ final class FlightCodeField extends TextBase
 
 
 	/**
-	 * @param FlightCode|string $value
+	 * @param AirportCode|string $value
 	 */
 	public function setValue($value)
 	{
 		// string is there because of values entered by user!
-		if ($value instanceof FlightCode) {
+		if ($value instanceof AirportCode) {
 			$value = $value->toString();
 		}
 
@@ -37,16 +37,17 @@ final class FlightCodeField extends TextBase
 	}
 
 
-	public function getValue(): ?FlightCode
+	public function getValue(): ?AirportCode
 	{
 		try {
-			return FlightCode::parse(parent::getValue());
+			return AirportCode::parse(parent::getValue());
 
-		} catch (InvalidFlightCodeGiven $e) {
+		} catch (InvalidAirportCodeGiven $e) {
 			// Discard invalid values, basically the same as if there is no value entered
 			// ALTERNATIVELY: If you are interested in invalid values, you can provide
 			// second method in API for this
 			return NULL;
 		}
 	}
+
 }

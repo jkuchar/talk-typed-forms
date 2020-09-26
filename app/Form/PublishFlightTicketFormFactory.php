@@ -4,7 +4,7 @@
 namespace App\Form;
 
 
-interface PublishFlightTickerFormFactory
+interface PublishFlightTicketFormFactory
 {
 
 	public function create(): PublishFlightTicketForm;

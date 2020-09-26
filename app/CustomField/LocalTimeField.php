@@ -4,12 +4,13 @@
 namespace App\CustomField;
 
 
-use App\Model\FlightCode;
-use App\Model\InvalidFlightCodeGiven;
+use Brick\DateTime\DateTimeException;
+use Brick\DateTime\LocalTime;
+use Brick\DateTime\Parser\DateTimeParseException;
 use Nette\Forms\Controls\TextBase;
 use Nette\Utils\Html;
 
-final class FlightCodeField extends TextBase
+final class LocalTimeField extends TextBase
 {
 
 	use AddToConstructorForTextBase;
@@ -24,29 +25,30 @@ final class FlightCodeField extends TextBase
 
 
 	/**
-	 * @param FlightCode|string $value
+	 * @param LocalTime|string $value
 	 */
 	public function setValue($value)
 	{
 		// string is there because of values entered by user!
-		if ($value instanceof FlightCode) {
-			$value = $value->toString();
+		if ($value instanceof LocalTime) {
+			$value = (string) $value;
 		}
 
 		return parent::setValue($value);
 	}
 
 
-	public function getValue(): ?FlightCode
+	public function getValue(): ?LocalTime
 	{
 		try {
-			return FlightCode::parse(parent::getValue());
+			return LocalTime::parse(parent::getValue());
 
-		} catch (InvalidFlightCodeGiven $e) {
+		} catch (DateTimeException|DateTimeParseException $e) {
 			// Discard invalid values, basically the same as if there is no value entered
 			// ALTERNATIVELY: If you are interested in invalid values, you can provide
 			// second method in API for this
 			return NULL;
 		}
 	}
+
 }

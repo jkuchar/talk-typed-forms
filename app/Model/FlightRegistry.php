@@ -19,6 +19,7 @@ final class FlightRegistry
 
 		// do something with these objects
 
+		echo "<h1>Values received by model:</h1>";
 		\dump(\get_defined_vars());
 	}
 

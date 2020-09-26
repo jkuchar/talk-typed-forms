@@ -71,7 +71,7 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 			FlightCode::parse($values['flightCode']),
 			AirportCode::parse($values['from']),
 			LocalTime::parse($values['departureTime']),
-			AirportCode::parse($values['from']),
+			AirportCode::parse($values['to']),
 			LocalTime::parse($values['arrivalTime']),
 		);
 
