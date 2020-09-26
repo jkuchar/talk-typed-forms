@@ -1,5 +1,5 @@
-Typed Nette forms
-=================
+Typed Nette forms talk
+======================
 
 This is part for my talks about implementing value objects into forms. Which increases interoperability with an model which is also strictly typed (typically domain driven designed).
 

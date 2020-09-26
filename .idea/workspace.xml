@@ -16,24 +16,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="Implemented Form2 with Form extracted into separate class">
-      <change afterPath="$PROJECT_DIR$/app/CustomField/AirportCodeField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/CustomField/LocalTimeField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Form/PublishFlightTicketTypedForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Form/PublishFlightTicketTypedFormFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Presenters/Form3Presenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Presenters/templates/Form3/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/CustomField/FlightCodeField.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CustomField/FlightCodeField.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Form/PublishFlightTickerFormFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Form/PublishFlightTicketFormFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Form/PublishFlightTicketForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Form/PublishFlightTicketForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/FlightRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/FlightRegistry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/Form2Presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/Form2Presenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/templates/@layout.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Form1/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/templates/Form1/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Form2/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/templates/Form2/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/common.neon" afterDir="false" />
+    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="removed note">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601111821056</updated>
-      <workItem from="1601111822164" duration="6172000" />
+      <workItem from="1601111822164" duration="6382000" />
     </task>
     <task id="LOCAL-00001" summary="Installed brick/date-time">
       <created>1601114597253</created>
@@ -182,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601116437899</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented Form3 with strictly typed fields">
+      <created>1601118023694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601118023694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed note">
+      <created>1601118200336</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601118200336</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +207,9 @@
     <MESSAGE value="summarized problems with current solution" />
     <MESSAGE value="Removed unused presenters" />
     <MESSAGE value="Implemented Form2 with Form extracted into separate class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Form2 with Form extracted into separate class" />
+    <MESSAGE value="Implemented Form3 with strictly typed fields" />
+    <MESSAGE value="removed note" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed note" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="290" key="#PHP" timestamp="1601112012214">
@@ -272,6 +272,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="454" y="200" key="SettingsEditor/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114040706" />
+    <state x="605" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601118202540">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="605" y="410" key="Vcs.Push.Dialog.v2/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601118202540" />
     <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601115062224">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
