@@ -4,6 +4,11 @@
 	"keywords": ["nette"],
 	"type": "project",
 	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+
+	"scripts": {
+		"phpstan": "phpstan analyze -c phpstan.neon -l 8 app/"
+	},
+
 	"require": {
 		"php": ">= 7.1",
 		"nette/application": "^3.0",
@@ -24,7 +29,9 @@
 	},
 	"require-dev": {
 		"nette/tester": "^2.0",
-		"symfony/thanks": "^1"
+		"symfony/thanks": "^1",
+		"phpstan/phpstan": "^0.12.44",
+		"phpstan/phpstan-nette": "^0.12.9"
 	},
 	"autoload": {
 		"psr-4": {
