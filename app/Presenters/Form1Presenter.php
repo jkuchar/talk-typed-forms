@@ -67,11 +67,6 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 		// How to validate these values, and how to pass them to the model?
 		// So now what?
 
-//		$flightCode = $values['flightCode'];
-//		\assert(\is_string($flightCode));
-
-
-
 		$this->flightRegistry->publishNewFlight(
 			FlightCode::fromString($values['flightCode']),
 			AirportCode::fromString($values['from']),
@@ -80,6 +75,13 @@ final class Form1Presenter extends Nette\Application\UI\Presenter
 			LocalTime::parse($values['arrivalTime']),
 		);
 
+
+
+		// Problems:
+		// 1. what if I change one of field names?
+		// 2. how to handle exceptions? (surround with)
+		//   3. how to check which was which, and how to inform user? Duplicated rules into fields?
+		// 4. How to teach phpstan to read this code?
 
 	}
 

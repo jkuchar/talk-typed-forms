@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="Installed latest phpstan (level 8)">
-      <change beforePath="$PROJECT_DIR$/app/Model/FlightRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/FlightRegistry.php" afterDir="false" />
+    <list default="true" id="55f2c7af-4d44-4a16-9dce-f65b1f5817ee" name="Default Changelist" comment="Fixed error found by phpstan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/Form1Presenter.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601111821056</updated>
-      <workItem from="1601111822164" duration="3066000" />
+      <workItem from="1601111822164" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="Installed brick/date-time">
       <created>1601114597253</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601114884370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed error found by phpstan">
+      <created>1601114905053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601114905053</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +160,8 @@
     <MESSAGE value="Implemented basic form, with model requiring value objects" />
     <MESSAGE value=".idea files: \RuntimeExceptions should be CHECKED exceptions!" />
     <MESSAGE value="Installed latest phpstan (level 8)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed latest phpstan (level 8)" />
+    <MESSAGE value="Fixed error found by phpstan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed error found by phpstan" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="290" key="#PHP" timestamp="1601112012214">
@@ -203,9 +212,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="454" y="200" key="SettingsEditor/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114040706" />
-    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601114434246">
+    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup" timestamp="1601114952108">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114434246" />
+    <state x="610" y="263" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/485.1463.1440.877@0.23.2560.1417" timestamp="1601114952108" />
   </component>
 </project>
